@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    font-family: Arial, sans-serif;
+}
+canvas {
+    border: 2px solid #fff;
+}
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+}
+#gameOverScreen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border: 2px solid #fff;
+}
+#gameOverScreen p {
+    margin: 10px 0;
+}
+#gameOverScreen .small {
+    font-size: 18px;
+} 

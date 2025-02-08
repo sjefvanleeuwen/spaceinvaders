@@ -1,0 +1,14 @@
+{
+  "name": "space-invaders",
+  "version": "1.0.0",
+  "description": "Space Invaders Game",
+  "main": "js/main.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.17.4",
+    "html-minifier": "^4.0.0",
+    "javascript-obfuscator": "^4.1.0"
+  }
+} 
